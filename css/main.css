@@ -24,7 +24,7 @@ h3,
 
 h1 {
     font-size: 2rem;
-    margin: 1em;
+    margin: 0.75em;
 }
 
 h2 {
@@ -52,6 +52,10 @@ header {
     font-size: 1.7rem;
 }
 
+.actif {
+    color: #fdfffc;
+}
+
 header .metier {
     margin-top: -10px;
     color: #e71d36;
@@ -70,4 +74,39 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-right: 10px;
+}
+
+.figure {
+    display:inline-block;
+    vertical-align: top;
+    margin-outside: 2.5%;
+    margin-bottom: 1rem;
+    padding: 10px;
+    font-size: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+img  {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    padding-top: 50px;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    margin: 0;
+    width: 50px;
+    margin: 0 15px;
+    filter: grayscale(1);
+    transition: filter 500ms linear;
+    filter: grayscale(0);
 }
