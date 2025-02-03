@@ -53,7 +53,7 @@ header {
 }
 
 .actif {
-    color: #fdfffc;
+    color: #2ec4b6;
 }
 
 header .metier {
@@ -69,11 +69,13 @@ header nav {
 header nav ul {
     padding: 0;
     list-style-type: none;
+    text-align: center;
 }
 
 header nav ul li {
     display: inline-block;
     margin-right: 10px;
+    text-align: center;
 }
 
 .figure {
@@ -93,20 +95,124 @@ img  {
     height: auto;
 }
 
-.footer {
-    padding-top: 50px;
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     text-align: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+}
+
+li {
     display: inline-block;
+    width: 45%;
+    margin: 2.5%;
+    vertical-align: top;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+    padding: 10px;
+    font-size: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+footer {
+    padding-top: 50px;
+    align-content: center;
+}
+
+.footer nav {
+    list-style: none;
+    padding: 0;
     margin: 0;
-    width: 50px;
+    text-align: center;
+}
+
+.footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.footer nav ul li {
+    display: inline-block;
     margin: 0 15px;
+}
+
+.footer nav ul li img {
+    width: 50px;
     filter: grayscale(1);
-    transition: filter 500ms linear;
+    transition: filter 500ms linear, transform 300ms ease-in-out;
+}
+
+.footer nav ul li img:hover {
     filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.gallery {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;  /* Center the images */
+}
+
+.gallery li {
+    display: inline-block;  /* Use inline-block to align images side by side */
+    width: 45%;  /* Set the width to 45% to fit two images per row */
+    margin: 2.5%;  /* Add 2.5% margin around the list items */
+    vertical-align: top;  /* Align items by the top */
+}
+
+.gallery .figure {
+    margin: 0;
+}
+
+.gallery img {
+    width: 100%;  /* Make images responsive */
+    height: auto;  /* Maintain the aspect ratio */
+}
+
+.gallery figcaption {
+    padding: 10px;  /* Add padding around the caption */
+    font-size: 1rem;  /* Set the font size for captions */
+    overflow: hidden;  /* Hide overflow text */
+    text-align: center;  /* Center the caption */
+}
+
+.photo-laure {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+@media screen and (max-width: 660px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+}
+
+.e {
+    align-content: center;
+    text-align: center;
+}
+
+.contact-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
 }

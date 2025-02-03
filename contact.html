@@ -8,45 +8,51 @@
     <link rel="icon" type="image/x-icon" href="_sources/images/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
     <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/responsive.css"/>
 </head>
 <body>
+
 <header>
-    <a href="" class="logo">
+    <a href="index.html" class="logo">
         <div class="nom">Laure Dinateur</div>
         <div class="metier">Graphiste</div>
     </a>
     <nav>
         <ul>
-            <li><a href="index.html">Accueil</a></li>
+            <li class="accueil"><a href="index.html">Accueil</a></li>
             <li><a href="information.html">Qui suis-je ?</a></li>
             <li class="actif"><a href="contact.html">Me contacter</a></li>
         </ul>
     </nav>
 </header>
+
 <main>
     <h1><strong>Me contacter</strong></h1>
 
     <h2><strong>Informations générales</strong></h2>
-
-    <p>Actuellement, je ne cherche pas forcément de nouveaux travaux, mais je reste ouvert à toutes propositions. Si vous
-        avez des questions n'hésitez pas à me contacter !</p>
-
-    <p>Appelez-moi sur mon mobile uniquement pour les demandes urgentes. Sinon, Twitter et email restent les meilleures
-        façons de me joindre.</p>
+    <p>Actuellement, je ne cherche pas forcément de nouveaux travaux, mais je reste ouvert à toutes propositions. Si vous avez des questions, n'hésitez pas à me contacter !</p>
+    <p>Appelez-moi sur mon mobile uniquement pour les demandes urgentes. Sinon, Twitter et email restent les meilleures façons de me joindre.</p>
 
     <h2><strong>Informations de contact</strong></h2>
-
-    <ul>
-        <li><a href="tel:0041 74 123 45 67">074 123 45 67</a></li>
-        <li><a href="mailto:laure@dinateur.com">laure@dinateur.com</a></li>
-        <li><a href="https://twitter.com/lauredi">@lauredi</a></li>
-        <li><a href="https://www.facebook.com/laure.dinateur">facebook</a></li>
+    <ul class="contact-list">
+        <li><img src="_sources/images/phone.png" alt="Phone Icon" class="contact-icon"/><a href="tel:0041 74 123 45 67">074 123 45 67</a></li>
+        <li><img src="_sources/images/mail.png" alt="Mail Icon" class="contact-icon"/><a href="mailto:laure@dinateur.com">laure@dinateur.com</a></li>
+        <li><img src="_sources/images/twitter.png" alt="Twitter Icon" class="contact-icon"/><a href="https://twitter.com/lauredi">@lauredi</a></li>
+        <li><img src="_sources/images/facebook.png" alt="Facebook Icon" class="contact-icon"/><a href="https://www.facebook.com/laure.dinateur">facebook</a></li>
     </ul>
 </main>
+
 <footer class="footer">
-    <p>&copy;2025 Laure Dinateur</p>
-    <img src="_sources/images/facebook-draw.png" height="128" width="128"/>
-    <img src="_sources/images/twitter-draw.png" height="128" width="128"/>
+    <p class = e>&copy;2025 Laure Dinateur</p>
+    <nav>
+        <ul class="social-media-list">
+            <li><a href="tel:0041 74 123 45 67" class="social-link">074 123 45 67</a></li>
+            <li><a href="mailto:laure@dinateur.com" class="social-link">laure@dinateur.com</a></li>
+            <li><a href="https://twitter.com/lauredi" class="social-link">@lauredi</a></li>
+            <li><a href="https://www.facebook.com/laure.dinateur" class="social-link">facebook</a></li>
+        </ul>
+    </nav>
 </footer>
+
 </body>
 </html>

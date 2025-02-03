@@ -8,22 +8,24 @@
   <link rel="icon" type="image/x-icon" href="_sources/images/favicon.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
   <link rel="stylesheet" href="css/main.css"/>
+  <link rel="stylesheet" href="css/responsive.css" />
 </head>
 <body>
 <header>
-  <a href="" class="logo">
+  <a href="information.html" class="logo">
     <div class="nom">Laure Dinateur</div>
     <div class="metier">Graphiste</div>
   </a>
   <nav>
     <ul>
       <li><a href="index.html">Accueil</a></li>
-      <li class = actif><a href="information.html">Qui suis-je ?</a></li>
+      <li class = "actif"><a href="information.html">Qui suis-je ?</a></li>
       <li><a href="contact.html">Me contacter</a></li>
     </ul>
   </nav>
 </header>
 <main>
+  <img class="photo-laure" src="_sources/images/laure-dinateur-graphiste.jpg" alt="Laure Dinateur" />
   <h1 class = "info"><strong>Laure Dinateur</strong></h1>
   <h1 class = "info"><strong>Présentation</strong></h1>
 
@@ -33,9 +35,14 @@
 
   <p>Vous pouvez me suivre sur Twitter, mon nom d'utilisateur est <a href = "https://twitter.com/lauredi" >@lauredi.</a></p>
 </main>
-<footer>
-
-  <p>&copy;2025 Laure Dinateur</p>
+<footer class="footer">
+  <p class="e">&copy;2025 Laure Dinateur</p>
+  <nav>
+    <ul>
+      <li><img src="_sources/images/facebook-draw.png" height="50" width="50"/></li>
+      <li><img src="_sources/images/twitter-draw.png" height="50" width="50"/></li>
+    </ul>
+  </nav>
 </footer>
 </body>
 </html>
