@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -11,6 +14,14 @@ body {
     font-weight: 400;
     padding: 0;
     margin: 0;
+}
+
+header nav ul li a {
+    color: #2ec4b6;
+}
+
+header nav ul li.actif a {
+    color: #fdfffc;
 }
 
 h1,
@@ -33,6 +44,8 @@ h2 {
 }
 p {
     line-height: 1.5;
+    text-align: left;
+    margin: 0.75em
 }
 
 a{
@@ -52,9 +65,7 @@ header {
     font-size: 1.7rem;
 }
 
-.actif {
-    color: #2ec4b6;
-}
+
 
 header .metier {
     margin-top: -10px;
@@ -63,6 +74,7 @@ header .metier {
 
 header nav {
     text-align: center;
+    font-family: "Changa One", cursive;
 
 }
 
@@ -99,7 +111,7 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    text-align: center;
+    text-align: left;
 }
 
 li {
@@ -212,7 +224,10 @@ footer {
 }
 
 .contact-icon {
-    display: inline-block;
+    display: inline;
     width: 20px;
     height: 20px;
+}
+.contact-icon img {
+    left: auto;
 }
