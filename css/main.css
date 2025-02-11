@@ -85,11 +85,11 @@ header nav ul {
 }
 
 header nav ul li {
-    display: inline-block;
+    display: flex;
     margin-right: 10px;
     text-align: center;
     position: relative;
-    left: 435px;
+    left: 515px;
 }
 
 .figure {
