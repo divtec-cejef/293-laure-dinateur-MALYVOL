@@ -88,6 +88,8 @@ header nav ul li {
     display: inline-block;
     margin-right: 10px;
     text-align: center;
+    position: relative;
+    left: 435px;
 }
 
 .figure {
@@ -157,8 +159,10 @@ footer {
 }
 
 .footer nav ul li {
-    display: inline-block;
-    margin: 0 15px;
+    display: inline;
+    margin: 40px 60px;
+    position: relative;
+    top: 30px;
 }
 
 .footer nav ul li img {
@@ -229,6 +233,8 @@ footer {
     display: inline;
     width: 20px;
     height: 20px;
+    margin-right: 10px;
+    margin-top: -15px;
 }
 .contact-icon img {
     left: auto;
